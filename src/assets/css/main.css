@@ -1,0 +1,47 @@
+.text-primary, .text-link{
+    color: #00833E;
+}
+
+.text-link:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.btn-submit{
+    width: 84%;
+    height: 100%;
+    margin: auto;
+    margin-left: 8%;
+    border: 1px solid #00833E;
+    border-radius: 10px;
+    background-color: rgba(0, 131, 62, 0.8);
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgba(0, 131, 62, 0.8);
+}
+
+.error-msg{
+    color: red;
+    font-size: 0.7rem;
+}
+
+.page-header {
+    width: 98%;
+    height: 4%;
+    line-height: 240%;
+    /*background-color: #DB4437;*/
+    margin: 1.5% 1% 1% 1%;
+    /*margin-top: 1.5%;*/
+    /*margin-bottom: 1%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+

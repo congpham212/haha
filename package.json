@@ -3,21 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 3003",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vee-validate": "^3.4.9",
+    "vue": "^2.6.10",
+    "vue-axios": "^3.2.4",
+    "vue-chartjs": "^3.5.1",
+    "vue-router": "^3.5.1",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@vue/cli-plugin-babel": "^3.1.0",
     "@vue/cli-plugin-eslint": "^3.1.0",
     "@vue/cli-service": "^3.1.0",
     "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.0.0-beta",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -29,7 +43,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": 0
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
@@ -41,6 +57,7 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions"
+    "last 2 versions",
+    "not dead"
   ]
 }
